@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - Entry point
  * Return: Alway 0
@@ -8,11 +6,21 @@
 
 int main(void)
 {
-        int a;
+	int i;
+	int a;
 
-        for( a = 'A'; i <= Z; A++)
+	i = 'a';
+	while (i <= 'z')
 	{
-		putchar("%c",a)
+		putchar (i);
+		i++;
 	}
-	return(0);
+	a = 'A';
+	while (a <= 'Z')
+	{
+		putchar (a);
+		a++;
+	}
+	putchar ('\n');
+	return (0);
 }
