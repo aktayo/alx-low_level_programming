@@ -6,7 +6,7 @@
 
 int main(void)
 {
-  int n;
+	int n;
 
 	n = 0;
 	while (n < 10)
@@ -14,7 +14,7 @@ int main(void)
 		putchar (n % 10 + '0');
 		n++;
 	}
-  int i;
+	int i;
 
 	i = 'a';
 	while (i <= 'f')
@@ -22,6 +22,6 @@ int main(void)
 		putchar (i);
 		i++;
 	}
-  putchar ('\n');
+	putchar ('\n');
 	return (0);
 }
