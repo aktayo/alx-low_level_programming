@@ -1,22 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - Entry point
  * Return: Alway 0
  */
+
 int main(void)
 {
 	int i;
-        Int a;
 
-        for( i = 'a'; i <= z; i++)
+	i = 'a';
+	while (i <= 'z' && i != 'q' &&  i != 'e')
 	{
-		putchar("%c",i)
+		putchar (i);
+		i++;
 	}
-        for( a = 'A'; i <= Z; A++)
-	{
-		putchar("%c",a)
-	}
-	return(0);
+	putchar ('\n');
+	return (0);
 }
