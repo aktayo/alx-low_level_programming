@@ -9,8 +9,16 @@ int main(void)
 	int i;
 
 	i = 'a';
-	while (i <= 'z' && i != 'q' &&  i != 'e')
+	while (i <= 'z')
 	{
+		if (i == 'e')
+		{
+			continue;
+		}
+		if (i == 'q')
+		{
+			continue;
+		}
 		putchar (i);
 		i++;
 	}
