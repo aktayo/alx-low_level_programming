@@ -8,13 +8,8 @@
 
 int main(void)
 {
-	int i;
-        Int a;
+        int a;
 
-	for( i = 'a'; i <= z; i++)
-	{
-		putchar("%c",i)
-	}
         for( a = 'A'; i <= Z; A++)
 	{
 		putchar("%c",a)
