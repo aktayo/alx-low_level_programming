@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-
+	int num;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	num = n % 10;
@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf("and is 0");
 	}
-	else if (num < 6 && != 0)
+	else if (num < 6 && num != 0)
 	{
 		printf("and is less than 6 and not 0");
 	}
