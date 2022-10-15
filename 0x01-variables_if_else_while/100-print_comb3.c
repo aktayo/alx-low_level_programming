@@ -5,22 +5,21 @@
  */
 
 int main(void)
-int i;
-     int a;
-	
-    a =0;
-	for(i = 0;i <= 9; i++)
-	{ switch(a = 0) a++;
-		putchar (i % 10 + '0');
+	int i;
 
-       switch(a = 1) a++; 
-        {putchar (a % 10 + '0');
-        
+	for(i = 0;i <= 9; i++)
+	{
+		int a;
+		switch (a = 0) a++;
+		putchar (i % 10 + '0');
+		switch (a = 1) a++; 
+        {
+		putchar (a % 10 + '0')
         }
-        putchar (',');
+        	putchar (',');
 		putchar (' ');
 	
 	}
-	putchar ('\n');
-	return (0);
+		putchar ('\n');
+		return (0);
 }
