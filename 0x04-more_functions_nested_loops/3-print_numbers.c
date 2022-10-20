@@ -5,7 +5,7 @@
  * Return: ret product of a and b
  */
 
-void print_numbers (void)
+void print_numbers(void)
 {
 
 	int i;
