@@ -20,11 +20,8 @@ void print_numbers(void)
 	_putchar('\n');
   }
 }
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
-}
-	int main(void)
+
+int main(void)
 {
     print_numbers();
     return (0);
