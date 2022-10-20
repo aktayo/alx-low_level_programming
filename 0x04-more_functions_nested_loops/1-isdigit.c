@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet - Print all alphabet in lowercase
- *@c: the variable
+ * _isdigit - Print all alphabet in lowercase
+ * @c: the variable
  * Return: Alway 0
  */
 
