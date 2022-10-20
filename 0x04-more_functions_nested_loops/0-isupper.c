@@ -1,5 +1,4 @@
 #include "main.h"
-#include "0-main.c"
 /**
  * print_alphabet - Print all alphabet in lowercase
  *@c: the variable
