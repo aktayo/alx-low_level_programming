@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- *mul - multiply 2 variables
- *@a: the variable
- *@b: the variable
+ *print_numbers - multiply 2 variables
+ *
  * Return: ret product of a and b
  */
 
-void print_numbers(void)
+void print_numbers (void)
 {
-  {
+
 	int i;
 
 	i = 0;
@@ -18,5 +17,4 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar('\n');
-  }
 }
