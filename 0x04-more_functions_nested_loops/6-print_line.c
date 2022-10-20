@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *more_number - multiply 2 variables
- *
- * Return: ret product of a and b
+ *print_line - multiply 2 variables
+ *@n: no of times
+ * Return: 0
  */
 
 void print_line(int n)
