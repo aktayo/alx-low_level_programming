@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *print_square - print_square#
+ *main - print_square#
  *
  * Return: 0
  */
