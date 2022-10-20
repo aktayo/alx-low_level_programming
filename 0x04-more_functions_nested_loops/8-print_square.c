@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *print_line - multiply 2 variables
- *@n: no of times
+ *print_square - print_square#
+ *@size: no of times
  * Return: 0
  */
 
