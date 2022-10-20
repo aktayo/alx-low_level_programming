@@ -7,10 +7,10 @@
 
 void print_most_numbers(void)
 {
-	int i = 0;
-	while (i < 10)
+	int a = 0;
+	while (a < 10)
 	{
-		if (i == 2 || i == 4)
+		if (a == 2 || a == 4)
 		{
 			i++;
 			continue;
