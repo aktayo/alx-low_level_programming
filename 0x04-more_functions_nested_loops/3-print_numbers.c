@@ -14,15 +14,15 @@ void print_numbers(void)
 	i = 0;
 	while (i < 10)
 	{
-		_putchar (i % 10 + '0');
+		_putchar(i % 10 + '0');
 		i++;
 	}
-	_putchar ('\n');
+	_putchar('\n');
   }
 }
 int _putchar(char c)
 {
-  return (fwrite(1, &c, 1));
+  return (write(1, &c, 1));
 }
 	int main(void)
 {
