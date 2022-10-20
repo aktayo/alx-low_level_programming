@@ -18,9 +18,8 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar ('\n');
-	return (0);
 }
-  int main(void)
+	int main(void)
 {
     print_numbers();
     return (0);
