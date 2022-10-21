@@ -9,7 +9,6 @@ int main(void)
 {
 	int i;
 
-	printf("1");
 	for (i = 0; i <= 100; i++)
 	{
 		printf(" ");
