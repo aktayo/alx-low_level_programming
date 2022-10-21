@@ -18,7 +18,7 @@ void more_numbers(void)
 				_putchar(nu / 10 + '0');
 			}
 			_putchar((nu % 10) + '0');
+                        _putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
