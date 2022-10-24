@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *void reset_to_98 - Reset int to a new value 
- *@n: variable value 
+ *swap_int - Swap the value of variable 
+ *@a: variable value
+ *@b: variable value
  * Return: 0
  */
 
