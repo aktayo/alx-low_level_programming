@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
     char s[100];
-    char s;
+    char *s;
 
     int number = 0;
     int neg = s[0] == '-';
@@ -22,5 +22,5 @@ int _atoi(char *s)
     if ( neg )
        number *= -1;
 
-    printf( "string %s -> number %d", s, number);
+    printf( "string %s -> number %d", *s, number);
 }
