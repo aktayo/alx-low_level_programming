@@ -7,16 +7,16 @@
 */
 int _atoi(char *s)
 {
-    char s[100];
+    char *s[100];
     char *s;
 
     int number = 0;
-    int neg = s[0] == '-';
+    int neg = *s[0] == '-';
     int i = neg ? 1 : 0;
-    while (s[i] >= '0' && s[i] <= '9')
+    while (*s[i] >= '0' && *s[i] <= '9')
     {
       number *= 10; 
-      number += s[i] - '0';
+      number += *s[i] - '0';
       i ++;
     }
     if ( neg )
