@@ -1,4 +1,4 @@
-void main()
+int _atoi(char *s)
 {
     char input[100];
     printf("Type a String which will be converted to an Integer: ");
