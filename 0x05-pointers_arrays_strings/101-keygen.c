@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 create_pass( char* randomString, size_t length )
 {
     size_t i = 0;
