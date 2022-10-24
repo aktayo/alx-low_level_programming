@@ -1,7 +1,7 @@
 #include "main.h"
 #include <studio.h>
 /**
- *print_array - print array 
+ *print_array - print array
  *@n: variable
  *@a: array
  * Return: 0
@@ -9,12 +9,13 @@
 
 void print_array(int *a, int n)
 {
-int x;
-for (x = 0; x < n; x++)
-{
-printf("%d", a[x]);
-if(x != n - 1)
-printf (", ");
-}
-printf('\n');
+	int x;
+
+	for (x = 0; x < n; x++)
+	{
+		printf("%d", a[x]);
+		if (x != n - 1)
+			printf(", ");
+	}
+	printf('\n');
 }
