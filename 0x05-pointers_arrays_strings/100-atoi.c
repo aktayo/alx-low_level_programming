@@ -7,7 +7,6 @@
 */
 int _atoi(char *s)
 {
-    char *s[100];
     char *s;
 
     int number = 0;
