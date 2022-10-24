@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- *print_rev - count the length of a string 
- *@s: variable 
+ *print_rev - count the length of a string
+ *@s: variable
  * Return: 0
  */
 
 void print_rev(char *s)
 {
-int i = 0;
-while (s[i] != '\0')
-i++;
-for(i = i - 1; i >= 0; i--)
-_putchar(s[i]);
+	int i = 0;
 
-_putchar('\n');
+	while (s[i] != '\0')
+		i++;
+	for (i = i - 1; i >= 0; i--)
+		_putchar(s[i]);
+
+	_putchar('\n');
 }
