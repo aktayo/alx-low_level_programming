@@ -1,24 +1,24 @@
-##include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <time.h>
 
 int main()
 {
-    srand((unsigned int)(time(NULL)));
-    int i;
-    char pass[12];
+    int counter = 0;
+    srandom(time(NULL));  // Correct seeding function for random()
+    char randChar;
 
-    printf("Press enter to get a twelve-character password\n");
-    getchar();
+    int  passwordLength;
 
-    for (i = 0; i < 4; i++) {
-        pass[i] = rand() % 9;
-        char capLetter = 'A' + (rand() % 26);
-        pass[i + 2] = capLetter;
-        char letter = 'a' + (rand() % 26);
-        pass[i + 3] = letter;
-        printf("%d%c%c", pass[i], pass[i + 2], pass[i + 3]);
+    printf("Type in a password Length \n");
+    scanf("%d", &passwordLength);
+
+    while(counter < passwordLength)
+    {
+        randChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"[random () % 62];
+        printf("%c", randChar);
+        counter++;
     }
-    printf("\n\n");
+    printf("\n"); // Stops the output from being on the same line as the prompt
+    return 0;
 }
