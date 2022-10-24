@@ -1,7 +1,7 @@
 #include <stdio.h>
 create_pass( char* randomString, size_t length )
 {
-    sizet_t i = 0;
+    size_t i = 0;
 
     srand(rand());
     strcpy(randomString,"");
