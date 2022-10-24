@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *puts2 - print string  
+ *puts_half - print string  
  *@str: variable 
  * Return: 0
  */
