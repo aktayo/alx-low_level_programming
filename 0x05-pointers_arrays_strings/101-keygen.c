@@ -1,4 +1,5 @@
-void create_pass( char* randomString, size_t length )
+#include <stdio.h>
+create_pass( char* randomString, size_t length )
 {
     sizet_t i = 0;
 
