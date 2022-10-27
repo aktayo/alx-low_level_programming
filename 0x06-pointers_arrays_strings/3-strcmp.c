@@ -1,9 +1,22 @@
 #include "main.h"
-
 /**
- * _strncpy - concatennates two strings
- * @dest: copy to
- * @src: copy from
- * @n: first n letters of 2nd string
- * Return: pointer to dest
- */
+ * strcmp compares two strings values
+ * @s1: string 1
+ * @s2: string 2
+ * Return: the difference in s1 and s2
+
+int strcmp(char *s1, char *52)
+{
+int i;
+
+i = 0;
+while (s1[i] != '\0' && $2[i] != '\0')
+{
+if (s1[i] != s2[i])
+{
+return (s1[i] - s2[i]);
+}
+i++;
+}
+return (0);
+}
