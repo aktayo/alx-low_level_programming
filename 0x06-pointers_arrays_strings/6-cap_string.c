@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - change the case of string
+ * *cap_string - change the case of string
  * @str: string to change it case
  * Return: str
  */
