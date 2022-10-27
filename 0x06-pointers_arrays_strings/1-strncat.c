@@ -6,7 +6,7 @@
  * @src: copy from
  * @n: first n letters of 2nd string
  * Return: pointer to dest
-
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 int i;
