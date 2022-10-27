@@ -6,3 +6,7 @@
  * Return: str
  */
 char *leet(char *)
+{
+int i, j;
+char s1[] =
+char s1[] =
