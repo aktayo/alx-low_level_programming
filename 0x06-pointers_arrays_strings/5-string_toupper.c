@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * reverse_array - concatennates two strings
+ * string_toupper - change the case of strings
  * @a: copy to
  * @n: nth string
  * Return: rev
  */
+
+char *string_toupper(char *)
