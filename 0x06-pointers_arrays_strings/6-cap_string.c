@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * string_toupper - change the case of string
+ * cap_string - change the case of string
  * @str: string to change it case
  * Return: str
  */
 
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 int i;
 
