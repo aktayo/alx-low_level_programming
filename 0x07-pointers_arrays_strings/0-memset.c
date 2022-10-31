@@ -24,7 +24,7 @@
 
  */                                                                                                                                 
 
-void *_memset(void *s, int c, size_t n)                                                                                              
+char *_memset(char *s, char b, unsigned int n)                                                                                              
 
 {                                                                                                                                    
 
@@ -43,4 +43,3 @@ void *_memset(void *s, int c, size_t n)
         return (s);                                                                                                            
 
 }
-for (a= 0; a < n; a++) s[a] = b; } return (0):
