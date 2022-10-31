@@ -30,23 +30,13 @@ if (s[i] == c)
 
  *                                                                                                                                   
 
-                                                                         
-
- *         If c is not found - NULL.                                                                                                 
-
- */                                                                                                                                 
+                                                                                                                                                                                               
 
                                                                                                       
 
 {                                                                                                                                    
 
-                                                                                                                          
-
-                                                                                                                                     
-
-                                                                                          
-
-        {                                                                                                                            
+                                                                                                                                                                                                       
 
                                                                                                                   
 
