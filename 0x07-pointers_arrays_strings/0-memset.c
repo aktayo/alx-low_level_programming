@@ -28,18 +28,19 @@ void *_memset(void *s, int c, size_t n)
 
 {                                                                                                                                    
 
-        unsigned int index;                                                                                                          
+        unsigned int a;                                                                                                          
 
         unsigned char *memory = s, value = c;                                                                                        
 
                                                                                                                                      
 
-        for (index = 0; index < n; index++)                                                                                          
+        for (a = 0; a < n; a++)                                                                                          
 
-                memory[index] = value;                                                                                              
+                s[a] = b;                                                                                              
 
                                                                                                                                      
 
-        return (memory);                                                                                                            
+        return (s);                                                                                                            
 
 }
+for (a= 0; a < n; a++) s[a] = b; } return (0):
