@@ -28,8 +28,10 @@ int is_prime_number(int n)
   for (i = 1; i < 21; i++)
   {
   if (n % i == 0)
+  {
     break;
     return (0);
+  }
     else
       return (1)
     }
