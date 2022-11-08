@@ -28,7 +28,7 @@ else
 
 position = 0;
 
-while (position < size) /*while for array"/
+while (position < size) /*while for array*/
 
 {
 
